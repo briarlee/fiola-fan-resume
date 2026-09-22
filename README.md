@@ -64,10 +64,10 @@ To update your resume:
 
 ## 📧 Contact Information
 
-- **Email**: luckyfanyy@gmail.com
-- **Phone**: +64 0290 2344451
-- **Location**: Auckland, New Zealand
-- **LinkedIn**: [linkedin.com/in/fiolafan](https://www.linkedin.com/in/fiolafan)
+- **Email**: fiolafan83@gmail.com
+- **Phone**: +64 29 023 44451
+- **Location**: Belmont, Auckland, New Zealand
+- **LinkedIn**: [linkedin.com/in/fiola.fan](https://www.linkedin.com/in/fiola.fan)
 
 ## 🔧 Technical Details
 
