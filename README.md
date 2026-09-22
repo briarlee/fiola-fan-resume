@@ -67,7 +67,7 @@ To update your resume:
 - **Email**: fiolafan83@gmail.com
 - **Phone**: +64 29 023 44451
 - **Location**: Belmont, Auckland, New Zealand
-- **LinkedIn**: [linkedin.com/in/fiola.fan](https://www.linkedin.com/in/fiola.fan)
+- **LinkedIn**: [linkedin.com/in/fiolafan/](https://www.linkedin.com/in/fiolafan/)
 
 ## 🔧 Technical Details
 
