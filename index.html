@@ -41,7 +41,10 @@
       "knowsAbout": [
         "capital projects",
         "construction project management",
-        "PMP"
+        "PMP",
+        "industrial CapEx",
+        "live-plant construction",
+        "commissioning and handover"
       ]
     }
     </script>
@@ -328,6 +331,69 @@
             font-weight: bold;
         }
 
+
+        /* === Selected Projects === */
+        .section-intro {
+            font-size: 1em;
+            color: var(--text-light);
+            margin-top: -15px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .project-card {
+            padding: 25px;
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(0, 121, 107, 0.12);
+            border-top: 3px solid var(--secondary-color);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .project-title {
+            font-size: 1.15em;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .project-meta {
+            font-size: 0.9em;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-body {
+            font-size: 0.95em;
+            line-height: 1.7;
+            color: var(--text-dark);
+            flex: 1;
+            margin-bottom: 15px;
+        }
+
+        .project-outcome {
+            font-size: 0.9em;
+            line-height: 1.6;
+            color: var(--text-light);
+            padding-top: 12px;
+            border-top: 1px solid #E0E0E0;
+        }
+
+        .project-outcome strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
         /* === 教育背景 === */
         .education-item {
             margin-bottom: 30px;
@@ -407,6 +473,10 @@
             .education-date {
                 margin-top: 5px;
             }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 768px) {
@@ -449,6 +519,16 @@
 
             .status-badge {
                 animation: none;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .project-card {
+                box-shadow: none;
+                page-break-inside: avoid;
             }
         }
     </style>
@@ -529,6 +609,32 @@
                 Bilingual in Mandarin Chinese and English, I am a <span class="highlight">Construction Project Manager in Auckland</span> and <span class="highlight">Capital Project Manager across New Zealand</span>, specialising in <strong>industrial CapEx</strong> for data centres, critical infrastructure, water and industrial facilities. Based in Belmont and holding a <span class="highlight">post-study open work visa to 8 Aug 2029 (no sponsorship)</span>, I am <strong>available immediately</strong> for full-time senior project delivery roles.
             </p>
         </section>
+
+        <section id="projects">
+            <h2>Selected projects</h2>
+            <p class="section-intro">Highlights mapped to industrial CapEx and live-plant delivery — the work New Zealand hiring managers scan for first.</p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3 class="project-title">Live-plant CRAH / data-centre upgrade</h3>
+                    <p class="project-meta">Intel · Dalian · Construction Project Manager</p>
+                    <p class="project-body">Brownfield capacity works in a live semiconductor and mission-critical environment. Coordinated multiple contractors through CRAH upgrades and live electrical tie-ins, with technical interface across HVAC, electrical, fire, security and BMS.</p>
+                    <p class="project-outcome"><strong>Outcome:</strong> Zero disruption to production and critical systems; HSE, quality and budget held across concurrent packages.</p>
+                </article>
+                <article class="project-card">
+                    <h3 class="project-title">Hydraulic curing line — install to handover</h3>
+                    <p class="project-meta">Goodyear Asia · ~USD 22M · Project Engineer</p>
+                    <p class="project-body">End-to-end installation and commissioning of major plant equipment with manufacturing and US global engineering through operational handover. CapEx tracking and stakeholder reporting through the delivery cycle.</p>
+                    <p class="project-outcome"><strong>Outcome:</strong> Performance accepted against operational and quality requirements; clean handover into manufacturing.</p>
+                </article>
+                <article class="project-card">
+                    <h3 class="project-title">First-of-kind equipment &amp; Thailand expansion</h3>
+                    <p class="project-meta">Goodyear Asia · Project Engineer / on-site SME</p>
+                    <p class="project-body">Design reviews, supplier inspections, installation, commissioning and ramp-up for first Asia-Pacific Run-On-Flat tyre building machine (~USD 5M) and truck tyre FVM (~USD 4M). Relocated to Thailand to support plant expansion through construction and equipment installation.</p>
+                    <p class="project-outcome"><strong>Outcome:</strong> First-of-kind equipment into stable production; on-the-ground commissioning leadership through sign-off.</p>
+                </article>
+            </div>
+        </section>
+
 
         <section id="nz-experience">
             <h2>New Zealand Experience</h2>
